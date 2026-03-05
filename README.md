@@ -54,7 +54,7 @@ FROM telco
 GROUP BY Contract
 ORDER BY churn_rate_pct DESC;
 ```
-This query reveals that month-to-month customers churn at 42.71% — 
+This query reveals that month-to-month customers churn at 42.71%, 
 15x higher than two-year contract customers at 2.85%.
 
 ### Highest Risk Segment
@@ -66,7 +66,7 @@ GROUP BY InternetService, Contract
 ORDER BY churn_rate_pct DESC;
 ```
 Fiber optic combined with month-to-month contract produces a 54.61% 
-churn rate — the single highest risk combination in the dataset.
+churn rate, the single highest risk combination in the dataset.
 
 ## Dataset Limitations
 - This is a public Kaggle dataset with no real business context or verified accuracy
@@ -79,3 +79,4 @@ churn rate — the single highest risk combination in the dataset.
 ## Dashboard Preview
 
 ![alt text](dashboard_preview.png)
+
